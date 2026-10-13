@@ -57,11 +57,5 @@
 <footer>
   <a href="https://github.com/PabloCSScobar" rel="noopener">GitHub</a>
 </footer>
-<script>
-  // Respect reduced-motion: show the poster instead of a looping video.
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('video[autoplay]').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
-  }
-</script>
 </body>
 </html>
